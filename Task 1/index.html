@@ -13,26 +13,25 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <nav>
             <div class="logo">
                 <img src="/img/logo.png" alt="/img/logo.png">
             </div>
             <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
                 <li><a href="">Resume</a></li>
-                <li><a href="">projects</a></li>
-                <li><a href="">Achievements</a></li>
-                <li><a href="">Contact Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#cantact">Contact Me</a></li>
             </ul>
             <div class="bars">
                 <i class="re-menu-2-fill"></i>
             </div>
         </nav>
         <div class="hero_header">
-            <img src="/img/shape-one.png" class="hero_shape">
-            <img src="/img/border-one.png" class="hero_shape border_shape">
             <div class="hero_img">
                 <img src="/img/hero.png">
             </div>
@@ -42,18 +41,248 @@
                 <h3>I am a <span class="text"></span></h3>
                 <div class="hero_btns">
                     <button>Download CV</button>
-                    <button>Hire Me <i class="ri-arrow-right-up-line"></i></button>
+                    <button href="#contact">Hire Me <i class="ri-arrow-right-up-line"></i></button>
                 </div>
             </div>
             <div class="top_bg_text">Ayush</div>
             <div class="bottom_bg_text">Jaiswal</div>
+            <img src="/img/shape-one.png" class="hero_shape">
+            <img src="/img/border-one.png" class="hero_shape border_shape">
             <img src="/img/shape-1.png" class="hero_bg_shape hero_bg_shape1">
             <img src="/img/shape-2.png" class="hero_bg_shape hero_bg_shape2">
             <img src="/img/shape-3.png" class="hero_bg_shape hero_bg_shape3">
             <img src="/img/shape-4.png" class="hero_bg_shape hero_bg_shape4">
-            
         </div>
     </header>
+    <SECTION class="about fade-in-section" id="about">
+        <div class="headings">
+            <H1>About <span>Me</span></H1>
+        </div>
+        <div class="about_container">
+            <div class="about_left">
+                <h1>"Creativity bleeds from the pen of Inspiration."</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perferendis, eligendi quos quasi ab
+                    aliquam reiciendis, unde velit impedit provident sunt explicabo repellendus ad! Ullam vero deserunt
+                    quae alias distinctio.</p>
+                <div class="client_name">
+                    <h3>Student | Coder</h3>
+                    <p>Ayush Jaiswal</p>
+                </div>
+            </div>
+            <div class="about_img">
+                <img src="/img/about.jpg" class="about_image">
+                <div class="hidden_icons">
+                    <div class="icon">
+                        <img src="/img/item-1.png">
+                    </div>
+                    <div class="icon">
+                        <img src="/img/item-2.png">
+                    </div>
+                    <div class="icon">
+                        <img src="/img/item-3.png">
+                    </div>
+                </div>
+            </div>
+            <div class="about_right">
+                <div class="about_info">
+                    <div class="about_det">
+                        <div class="value">90%</div>
+                        <div class="det_info">
+                            <h2>Fronend (Angular , React)</h2>
+                            <p>Crafting seamless user experiences with the power of Angular and React — where
+                                performance meets precision in every pixel.</p>
+                        </div>
+                    </div>
+                    <div class="about_det">
+                        <div class="value">80%</div>
+                        <div class="det_info">
+                            <h2>Backend (Php , Python)</h2>
+                            <p>Building robust, scalable foundations with PHP and Python — turning complex logic into
+                                clean, efficient solutions.</p>
+                        </div>
+                    </div>
+                    <!--App Dev-->
+                </div>
+            </div>
+        </div>
+    </SECTION>
+    <section class="education_experience fade-in-section" id="education">
+        <img src="/img/achieve-shape-1.png" class="achieve_shaspe achieve_shape1">
+        <img src="/img/achieve-shape-2.png" class="achieve_shaspe achieve_shape2">
+        <div class="headings">
+            <h1>What I <span>Achieve</span></h1>
+        </div>
+        <div class="education_btn">
+            <button id="showEducation" class="active">Education</button>
+            <button id="showExperience">Experience</button>
+        </div>
+        <div class="education_container">
+            <div class="education_left" id="educationContent">
+                <div class="education_box">
+                    <h2>Bachelors in Computer Application - <span> First Class</span></h2>
+                    <h3 style="display: flex; flex-direction: column; font-weight: 500;">GGSIP UNIVERCITY | 2026</h3>
+                    <p>A comprehensive undergraduate program focused on foundational and advanced concepts in computer
+                        science,
+                        software development, database management, and web technologies. Developed practical skills in
+                        programming
+                        (C, C++, Java, Python), web development, data structures, and software engineering through
+                        academic projects and hands-on labs.</p>
+                </div>
+                <div class="education_box">
+                    <h2>High School - <span> CBSE</span></h2>
+                    <h3 style="display: flex; flex-direction: column; font-weight: 500;">GD GOENKA PUBLIC SCHOOL | 2023
+                    </h3>
+                    <p>Completed senior secondary education with a focus on Commerce. Developed strong analytical,
+                        communication,
+                        and problem-solving skills through academic projects, extracurricular involvement, and
+                        leadership roles.</p>
+                </div>
+            </div>
+            <div class="gap_line"></div>
+            <div class="experience_left" id="experienceContent">
+                <div class="experience_box">
+                    <h2>Internship Experience<span> Future Interns</span></h2>
+                    <h3 style="display: flex; flex-direction: column; font-weight: 500;">Web Development Intern | July
+                        2025</h3>
+                    <p>Worked as part of a dynamic development team to design and implement responsive web applications.
+                        Gained hands-on
+                        experience in frontend technologies like Angular and React, and contributed to backend
+                        development using PHP and
+                        Python.</p>
+                </div>
+                <div class="experience_box">
+                    <h2>Professional Experience <span> Nexverse</span></h2>
+                    <h3 style="display: flex; flex-direction: column; font-weight: 500;">Team Member Nexverse | March
+                        2025 - Present</h3>
+                    <p>
+                        Actively contributing to a tech-driven community focused on innovation, collaboration, and skill
+                        development in
+                        web and software technologies. At Nexverse, I’ve been involved in:
+                    </p>
+                    <ul>
+                        <li><b>Collaborative Projects:</b> Participated in team-based development of web applications
+                            using Angular, React,
+                            and backend tools like Python and PHP.</li>
+                        <li><b>Workshops & Hackathons:</b> Engaged in technical events that foster real-world
+                            problem-solving and rapid
+                            prototyping.</li>
+                        <li><b>Continuous Learning:</b> Gained exposure to agile methodologies, peer review practices,
+                            and industry-relevant tech stacks.</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects_section fade-in-section">
+        <div class="headings">
+            <h1>My <span>Projects</span></h1>
+        </div>
+        <div class="projects_grid">
+            <div class="project_card">
+                <img src="/img/project-2.jpg">
+                <div class="project_content">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio built with HTML, CSS, and JavaScript, etc to showcase skills,
+                        experience, and projects.</p>
+                    <div class="tech_stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+                    </div>
+                    <div class="project_links">
+                        <a href="" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project_card">
+                <img src="/img/project-1.jpg">
+                <div class="project_content">
+                    <h3>E-Commerece Website</h3>
+                    <p>A full-stack modern e-commerce store offering a wide range of stylish and comfortable shoes for
+                        every occasion.</p>
+                    <div class="tech_stack">
+                        <span>Html</span><span>CSS</span><span>Bootstrap</span><span>React</span><span>Node.js</span><span>Sql</span>
+                    </div>
+                    <div class="project_links">
+                        <a href="" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project_card">
+                <img src="/img/project-4.jpg">
+                <div class="project_content">
+                    <h3>Theatre</h3>
+                    <p>A full-stack seamless movie ticket booking platform that lets users browse showtimes, select
+                        seats, and book tickets instantly.</p>
+                    <div class="tech_stack">
+                        <span>Html</span><span>CSS</span><span>Java
+                            Script</span><span>Bootstrap</span><span>React</span><span>Node.js</span><span>Expres</span><span>Mongo
+                            DB</span>
+                    </div>
+                    <div class="project_links">
+                        <a href="" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certificates" class="certificates_section fade-in-section">
+        <div class="headings">
+            <h1>My <span>Certificates</span></h1>
+        </div>
+        <div class="certificate_container">
+            <div class="certificates_grid">
+                <div class="certificate_card">
+                    <img src="/img/project-5.jpg">
+                </div>
+                <div class="certificate_card">
+                    <img src="/img/project-1.jpg">
+                </div>
+                <div class="certificate_card">
+                    <img src="/img/project-5.jpg">
+                </div>
+                <div class="certificate_card">
+                    <img src="/img/project-1.jpg">
+                </div>
+                <div class="certificate_card">
+                    <img src="/img/project-5.jpg">
+                </div>
+                <div class="certificate_card">
+                    <img src="/img/project-1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_about">
+                <h3>Biox</h3>
+                <p>Passionate about web development, design, and clean user experiences.</p>
+            </div>
+            <div class="footer_links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h4>Contact</h4>
+                <p>Email: yourname@email.com</p>
+                <div class="social_icons">
+                    <a href="#"><img src="/img/item-1.png" alt="GitHub"></a>
+                    <a href="#"><img src="/img/item-2.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="/img/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>&copy; 2025 Biox. All Rights Reserved.</p>
+        </div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
